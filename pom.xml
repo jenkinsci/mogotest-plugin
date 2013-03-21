@@ -35,4 +35,18 @@
       <url>http://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
+
+  <scm>
+    <connection>scm:git:ssh://github.com/jenkinsci/mogotest-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/mogotest-plugin.git</developerConnection>
+    <url>https://github.com/jenkinsci/mogotest-plugin</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>nirvdrum</id>
+      <name>Kevin Menard</name>
+      <email>kevin@mogotest.com</email>
+    </developer>
+  </developers>
 </project>
